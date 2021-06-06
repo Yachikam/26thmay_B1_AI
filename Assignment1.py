@@ -45,9 +45,7 @@ def register():
     age.set('')
     mob.set('')
 
-
 tk.Button(app, text='Submit', command=register).place(x=120,y=210)
-##tk.Button(app, text='Wrong input', command=input)
 
 #
 app.mainloop()
